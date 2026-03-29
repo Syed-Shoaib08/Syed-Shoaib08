@@ -80,18 +80,3 @@ Healthcare Data Engineering — Clinical data platforms, HIPAA-compliant pipelin
 Financial Services Data Engineering — Mortgage processing, fraud detection, transaction analytics
 
 ---
-
-## Featured Projects
-
-### Real-Time ICU Patient Monitoring Platform
-> Azure • Microsoft Fabric • ADLS Gen2 • Python • Power BI • Delta Lake
-
-End-to-end healthcare data engineering platform built on **Medallion Architecture** (Bronze/Silver/Gold). Simulates real-time ICU patient vital signs, applies a **NEWS-based clinical risk scoring engine** across six vital parameters, and delivers live operational insights via a Power BI dashboard hosted on Microsoft Fabric with Direct Lake connectivity.
-
-**Key highlights:**
-- Automated daily pipeline orchestrated via Microsoft Fabric — 4 notebooks executing in sequence
-- Partition-aware processing — reads only latest datetime partition preventing historical data accumulation
-- Microsecond timestamp enforcement for full Microsoft Fabric Spark compatibility
-- Silver layer full overwrite pattern ensuring deterministic Gold aggregations
-- Power BI Direct Lake mode — zero-copy querying over Delta tables, no import or refresh overhead
-- Clinical conditional formatting aligned to NEWS threshold standards
