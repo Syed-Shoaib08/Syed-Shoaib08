@@ -5,7 +5,7 @@
 
 ## About Me
 
-Senior Data Engineer with 5+ years of experience designing and delivering production-grade data platforms across **healthcare** and **financial services** domains. Specialized in cloud-native architectures on **Microsoft Azure** and **Google Cloud Platform**, with deep expertise in real-time streaming, Medallion Architecture, distributed computing, and enterprise BI.
+Senior Data Engineer with hands-on expertise in designing and delivering production-grade data platforms across **healthcare** and **financial services** domains. Specialized in cloud-native architectures on **Microsoft Azure** and **Google Cloud Platform**, with deep expertise in real-time streaming, Medallion Architecture, distributed computing, and enterprise BI.
 
 Proven track record architecting scalable ETL/ELT pipelines processing terabytes of structured and unstructured data using Azure Data Factory, Databricks, Synapse Analytics, Microsoft Fabric, and GCP BigQuery. Extensive experience with data warehousing, Delta Lake, Apache Spark, and multi-cloud platform engineering.
 
